@@ -1,0 +1,67 @@
+{
+  "hash": "85bd79b1",
+  "configHash": "7f173c54",
+  "lockfileHash": "fc817442",
+  "browserHash": "42f58d6d",
+  "optimized": {
+    "@angular/animations": {
+      "src": "../../../../../node_modules/@angular/animations/fesm2022/animations.mjs",
+      "file": "@angular_animations.js",
+      "fileHash": "a50ed047",
+      "needsInterop": false
+    },
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "f39d8651",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "7203e789",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "a51b0de2",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "02a463e5",
+      "needsInterop": false
+    },
+    "@angular/platform-browser/animations": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/animations.mjs",
+      "file": "@angular_platform-browser_animations.js",
+      "fileHash": "7bc8ac28",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "858fecd3",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-KNWWPQJQ": {
+      "file": "chunk-KNWWPQJQ.js"
+    },
+    "chunk-PTMAOFGI": {
+      "file": "chunk-PTMAOFGI.js"
+    },
+    "chunk-BCB4OAS5": {
+      "file": "chunk-BCB4OAS5.js"
+    },
+    "chunk-F2TMUAH5": {
+      "file": "chunk-F2TMUAH5.js"
+    },
+    "chunk-2UONM32I": {
+      "file": "chunk-2UONM32I.js"
+    }
+  }
+}

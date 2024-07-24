@@ -1,0 +1,130 @@
+{
+  "about": {
+    "sectionName": "À propos",
+    "name": "Wissal Gharbi",
+    "title": "Ingénieur logiciel",
+    "location": "Montréal, Canada",
+    "background": "Ingénieur logiciel avec expérience en développement full stack.",
+    "description": "Je me spécialise dans la création d'applications évolutives utilisant Angular et Java."
+  },
+  "contact": {
+    "sectionName": "Contact",
+    "phone": "+1 438-366-3406",
+    "email": "gharbi.wissal2@gmail.com",
+    "linkedin": "www.linkedin.com/in/wissal-gharbi-090413191/"
+  },
+  "experience": {
+    "sectionName": "Expérience",
+    "entries": [
+      {
+        "title": "Développeur FrontEnd",
+        "company": "MASS Analytics",
+        "period": "Avr. 2022 – Présent",
+        "responsibilities": [
+          "A pris en charge les efforts de développement front-end, se concentrant sur la création d’interfaces utilisateur intuitives et l’amélioration de l’expérience utilisateur pour les applications desktop (JavaFX) et web (Angular).",
+          "Implémentation et teste des nouvelles fonctionnalités en utilisant Angular pour les solutions web, en s’alignant étroitement sur les besoins des parties prenantes et les retours des utilisateurs pour fournir des solutions innovantes.",
+          "Mise en œuvre et développement de solutions pour la migration des applications desktop vers web, en utilisant Java et Spring Boot pour le support back-end."
+        ],
+        "environment": ["Java", "Springboot", "JavaFx", "Angular", "GIT", "JIRA"]
+      },
+      {
+        "title": "Développeur Full Stack",
+        "company": "Welyne",
+        "period": "Jan. 2021 – Avr. 2022",
+        "responsibilities": [
+          "Développement de nouvelles fonctionnalités pour un site de nettoyage à sec en ligne avec ASP .Net et Angular.",
+          "Développement et mise en œuvre de l'évolution du point de vente et du système de gestion et de statistiques de l'application avec Laravel et VueJs.",
+          "Prendre en compte les demandes de corrections et suivi de la livraison des changements.",
+          "Réalisation de tests unitaires et travail avec NGRX pour une plateforme SSII avec Angular."
+        ],
+        "environment": ["ASP .Net", "C#", "Laravel", "Angular", "Vuejs", "JavaScript", "SQL Server", "GIT", "Trello"]
+      },
+      {
+        "title": "Développeur Full Stack",
+        "company": "Connected General Assistance",
+        "period": "Sept. 2020 – Déc. 2020",
+        "responsibilities": [
+          "Développement de nouveaux modules pour l'application qui permet la gestion de l'activité de l'Assistance Générale."
+        ],
+        "environment": ["Spring Boot", "Angular", "PostgreSql", "PL/SQL", "Git", "Redmine"]
+      },
+      {
+        "title": "Stagiaire Data Scientist",
+        "company": "Connected General Assistance",
+        "period": "Fév. 2020 – Juil. 2020",
+        "responsibilities": [
+          "Mise en place d'un système de détection de fraude pour l'assurance automobile.",
+          "Préparation et visualisation des données.",
+          "Générer un modèle prédictif pour la détection de fraude.",
+          "Développement d'une application web pour afficher le résultat de la prédiction."
+        ],
+        "environment": ["Machine Learning", "Classification", "Python", "Flask", "Angular", "Git", "Docker"]
+      },
+      {
+        "title": "Stagiaire Développeur Logiciel",
+        "company": "GFI Tunisia",
+        "period": "Juin 2019 - Août 2019",
+        "responsibilities": [
+          "Développement d'une application web de gestion des tickets de réclamation interne."
+        ],
+        "environment": ["Spring Boot", "ReactJs", "PostgreSql", "Git"]
+      },
+      {
+        "title": "Stagiaire Développeur Logiciel",
+        "company": "GFI Tunisia",
+        "period": "Juil. 2018 – Août 2018",
+        "responsibilities": [
+          "Développement d'une application web de gestion des stocks."
+        ],
+        "environment": [".Net Core", "EF Core Code-First", "PostgreSql", "Architecture MVC"]
+      },
+      {
+        "title": "Stagiaire Projet de Fin d'Études",
+        "company": "HUAWEI Technologies",
+        "period": "Fév. 2017 – Juil. 2017",
+        "responsibilities": [
+          "Audit du réseau d'accès 3G / 4G, VOIX / DATA et développement d'un outil d'automatisation pour le reporting au réseau d'accès 3G / 4G."
+        ],
+        "environment": ["C# desktop"]
+      }
+    ]
+  },
+  "education": {
+    "sectionName": "Éducation",
+    "entries": [
+      {
+        "degree": "Ingénierie informatique, spécialité Génie logiciel",
+        "institution": "SESAME - École Supérieure des Sciences Appliquées et de Management",
+        "period": "2017 – 2020",
+        "notes": "Reconnu par World Education Services (WES) Canada comme un diplôme de Bachelor et de Master"
+      },
+      {
+        "degree": "Spécialité Réseaux et Systèmes de Télécommunications",
+        "institution": "ISET’COM - Institut Supérieur des Études Technologiques en Communication, Tunis",
+        "period": "2014 – 2017",
+        "notes": "Reconnu par World Education Services (WES) Canada comme un diplôme de Bachelor"
+      }
+    ]
+  },
+  "skills": {
+    "sectionName": "Compétences",
+    "languages": ["JAVA", "C#", "SQL", "PHP", "HTML5/CSS3", "JavaScript", "Python"],
+    "frameworks": ["Spring Boot", "ASP .NET", "Angular", "ReactJs"],
+    "database": ["Microsoft SQL Server", "MySQL", "Oracle", "PostgreSQL", "MongoDB"],
+    "os": ["Windows", "Linux (Ubuntu)"]
+  },
+  "certifications": {
+    "sectionName": "Certifications",
+    "entries": [
+      "Business Intelligence / SQL Server 2016 (Sep. 2020)",
+      "MTA: Introduction à la programmation en utilisant Python (Déc. 2019)",
+      "MTA: Introduction à la programmation en utilisant JavaScript (Déc. 2019)",
+      "MTA: Introduction à la programmation en utilisant Java (Déc. 2019)",
+      "MTA: HTML5 Application Development Fundamentals (Jan. 2018)"
+    ]
+  },
+  "languages": {
+    "sectionName": "Langues",
+    "entries": ["Français", "Anglais", "Arabe"]
+  }
+}
