@@ -1,0 +1,31 @@
+<!-- Skills Section HTML with Tags -->
+<div *ngIf="skills" class="skills-section">
+  <h2>{{ skills.sectionName }}</h2>
+  
+  <div class="skills-container">
+    <div class="skills-category">
+      <h3>Languages</h3>
+      <div class="skill-tags-container">
+        <span *ngFor="let language of skills.languages" class="skill-tag">{{ language }}</span>
+      </div>
+    </div>
+    <div class="skills-category">
+      <h3>Frameworks</h3>
+      <div class="skill-tags-container">
+        <span *ngFor="let framework of skills.frameworks" class="skill-tag">{{ framework }}</span>
+      </div>
+    </div>
+    <div class="skills-category">
+      <h3>Database</h3>
+      <div class="skill-tags-container">
+        <span *ngFor="let db of skills.database" class="skill-tag">{{ db }}</span>
+      </div>
+    </div>
+    <div class="skills-category">
+      <h3>Operating Systems</h3>
+      <div class="skill-tags-container">
+        <span *ngFor="let os of skills.os" class="skill-tag">{{ os }}</span>
+      </div>
+    </div>
+  </div>
+</div>

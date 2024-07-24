@@ -1,0 +1,60 @@
+/* styles.css */
+
+/* Contact Section Styles */
+.contact-section {
+  background: #f4f4f4;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.contact-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item i {
+  font-size: 1.5em;
+  color: #2575fc; /* Adjust color as needed */
+}
+
+.contact-item p {
+  margin: 0;
+  font-size: 1em;
+}
+
+.contact-item a {
+  color: #2575fc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-info {
+    flex-direction: column;
+  }
+}

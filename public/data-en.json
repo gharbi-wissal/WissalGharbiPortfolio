@@ -1,0 +1,130 @@
+{
+  "about": {
+    "sectionName": "About",
+    "name": "Wissal Gharbi",
+    "title": "Software Engineer",
+    "location": "Montreal, Canada",
+    "background": "Software Engineer with experience in full stack development.",
+    "description": "I specialize in creating scalable applications using Angular and Java."
+  },
+  "contact": {
+    "sectionName": "Contact",
+    "phone": "+1 438-366-3406",
+    "email": "gharbi.wissal2@gmail.com",
+    "linkedin": "www.linkedin.com/in/wissal-gharbi-090413191/"
+  },
+  "experience": {
+    "sectionName": "Experience",
+    "entries": [
+      {
+        "title": "Front End Developer",
+        "company": "MASS Analytics",
+        "period": "Apr. 2022 – Present",
+        "responsibilities": [
+          "Took charge of front-end development efforts, focusing on crafting intuitive user interfaces and enhancing user experience for both desktop (JavaFX) and web (Angular) applications.",
+          "Implemented and rigorously tested new features using Angular for web solutions, aligning closely with stakeholder needs and user feedback to deliver innovative solutions.",
+          "Implementation and development solutions for the migration of desktop applications to web-based platforms, utilizing Java and Spring Boot for back-end support."
+        ],
+        "environment": ["Java", "Springboot", "JavaFx", "Angular", "GIT", "JIRA"]
+      },
+      {
+        "title": "Full Stack Developer",
+        "company": "Welyne",
+        "period": "Jan. 2021 – Apr. 2022",
+        "responsibilities": [
+          "Development of new functionalities for an online dry cleaning website with ASP .Net and Angular.",
+          "Development and implementation of evolution for the point of sales and the management and statistics system of the application with Laravel and VueJs.",
+          "Take into account requests for fixes and follow-up of the delivery of changes.",
+          "Carrying out unit tests and working with NGRX for an SSII platform with Angular."
+        ],
+        "environment": ["ASP .Net", "C#", "Laravel", "Angular", "Vuejs", "JavaScript", "SQL Server", "GIT", "Trello"]
+      },
+      {
+        "title": "Full Stack Developer",
+        "company": "Connected General Assistance",
+        "period": "Sept. 2020 – Dec. 2020",
+        "responsibilities": [
+          "Development of new modules for the application which allows the management of the activity of General Assistance."
+        ],
+        "environment": ["Spring Boot", "Angular", "PostgreSql", "PL/SQL", "Git", "Redmine"]
+      },
+      {
+        "title": "Data Scientist Intern",
+        "company": "Connected General Assistance",
+        "period": "Feb. 2020 – July 2020",
+        "responsibilities": [
+          "Implementing a fraud detection system for automobile insurance.",
+          "Data preparation and visualisation.",
+          "Generate a predictive model for fraud detection.",
+          "Developing a web application to display the result of the prediction."
+        ],
+        "environment": ["Machine Learning", "Classification", "Python", "Flask", "Angular", "Git", "Docker"]
+      },
+      {
+        "title": "Software Developer Intern",
+        "company": "GFI Tunisia",
+        "period": "June 2019 - Aug. 2019",
+        "responsibilities": [
+          "Developing an internal complaint ticket management web application."
+        ],
+        "environment": ["Spring Boot", "ReactJs", "PostgreSql", "Git"]
+      },
+      {
+        "title": "Software Developer Intern",
+        "company": "GFI Tunisia",
+        "period": "July 2018 – Aug. 2018",
+        "responsibilities": [
+          "Developing a stock management web application."
+        ],
+        "environment": [".Net Core", "EF Core Code-First", "PostgreSql", "MVC architecture"]
+      },
+      {
+        "title": "Graduation Project Intern",
+        "company": "HUAWEI Technologies",
+        "period": "Feb. 2017 – July 2017",
+        "responsibilities": [
+          "Audit of 3G / 4G, VOICE / DATA access network and development of an automation tool for reporting to the 3G / 4G access network."
+        ],
+        "environment": ["C# desktop"]
+      }
+    ]
+  },
+  "education": {
+    "sectionName": "Education",
+    "entries": [
+      {
+        "degree": "Computer Engineering, Software Engineering Specialty",
+        "institution": "SESAME - Higher School of Applied Sciences and Management",
+        "period": "2017 – 2020",
+        "notes": "Recognized by World Education Services (WES) Canada as a Bachelor’s and master’s degree"
+      },
+      {
+        "degree": "Networks and Telecommunications Systems Specialty",
+        "institution": "ISET’COM - Higher Institute of Technological Studies in Communication, Tunis",
+        "period": "2014 – 2017",
+        "notes": "Recognized by World Education Services (WES) Canada as a Bachelor’s degree"
+      }
+    ]
+  },
+  "skills": {
+    "sectionName": "Skills",
+    "languages": ["JAVA", "C#", "SQL", "PHP", "HTML5/CSS3", "JavaScript", "Python"],
+    "frameworks": ["Spring Boot", "ASP .NET", "Angular", "ReactJs"],
+    "database": ["Microsoft SQL Server", "MySQL", "Oracle", "PostgreSQL", "MongoDB"],
+    "os": ["Windows", "Linux (Ubuntu)"]
+  },
+  "certifications": {
+    "sectionName": "Certifications",
+    "entries": [
+      "Business Intelligence / SQL Server 2016 (Sep. 2020)",
+      "MTA: Introduction to Programming using Python (Dec. 2019)",
+      "MTA: Introduction to Programming using JavaScript (Dec. 2019)",
+      "MTA: Introduction to Programming using Java (Dec. 2019)",
+      "MTA: HTML5 Application Development Fundamentals (Jan. 2018)"
+    ]
+  },
+  "languages": {
+    "sectionName": "Languages",
+    "entries": ["French", "English", "Arabic"]
+  }
+}

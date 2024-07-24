@@ -1,0 +1,48 @@
+<!-- home.component.html -->
+
+<header class="header">
+  <div class="container">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Explore my work and experience</p>
+  </div>
+</header>
+
+<nav class="navbar">
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+  </ul>
+  <div class="language-selector">
+    <button (click)="switchLanguage('en')"><img src="assets/flags/en.png" alt="English"></button>
+    <button (click)="switchLanguage('fr')"><img src="assets/flags/fr.png" alt="Français"></button>
+  </div>
+</nav>
+
+<div *ngIf="data; else loading" [@fadeIn]>
+  <section id="about" class="section">
+    <app-about [about]="data.about"></app-about>
+  </section>
+
+  <section id="contact" class="section">
+    <app-contact [contact]="data.contact"></app-contact>
+  </section>
+
+  <section id="experience" class="section">
+    <app-experience [experience]="data.experience"></app-experience>
+  </section>
+
+  <section id="education" class="section">
+    <app-education [education]="data.education"></app-education>
+  </section>
+
+  <section id="skills" class="section">
+    <app-skills [skills]="data.skills"></app-skills>
+  </section>
+</div>
+
+<ng-template #loading>
+  <p>Loading...</p>
+</ng-template>

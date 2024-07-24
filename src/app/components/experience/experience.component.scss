@@ -1,0 +1,112 @@
+/* styles.css */
+
+/* Experience Section */
+.experience-section {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Heading */
+.experience-section h2 {
+  font-size: 2em;
+  color: #333;
+  border-bottom: 2px solid #2575fc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Grid Container for Experience Cards */
+.experience-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Experience Card */
+.experience-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  flex: 1 1 250px; /* Flex-grow, flex-shrink, flex-basis */
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Job Title */
+.experience-card h3 {
+  font-size: 1.5em;
+  color: #2575fc;
+  margin: 0;
+}
+
+/* Company and Period */
+.experience-card h4 {
+  font-size: 1.2em;
+  color: #555;
+  margin: 5px 0 15px;
+}
+
+/* Content Container */
+.experience-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Responsibilities and Environment */
+.experience-card .responsibility-list {
+  list-style-type: disc;
+  margin: 0 0 10px 20px;
+  padding: 0;
+}
+
+.experience-card .responsibility-list li {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+/* Tags Container */
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px; /* Space between tags */
+}
+
+/* Tags */
+.tag {
+  background: #2575fc;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .experience-section h2 {
+    font-size: 1.5em;
+  }
+
+  .experience-card h3 {
+    font-size: 1.2em;
+  }
+
+  .experience-card h4 {
+    font-size: 1em;
+  }
+
+  .experience-card .tag {
+    font-size: 0.8em;
+    padding: 4px 8px;
+  }
+}

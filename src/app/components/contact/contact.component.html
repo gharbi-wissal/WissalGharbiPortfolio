@@ -1,0 +1,18 @@
+<!-- Enhanced Contact Section HTML -->
+<div *ngIf="contact" class="contact-section">
+  <h2>{{ contact.sectionName }}</h2>
+  <div class="contact-info">
+    <div class="contact-item">
+      <i class="fa fa-phone"></i>
+      <p>Phone: <a [href]="'tel:' + contact.phone">{{ contact.phone }}</a></p>
+    </div>
+    <div class="contact-item">
+      <i class="fa fa-envelope"></i>
+      <p>Email: <a [href]="'mailto:' + contact.email">{{ contact.email }}</a></p>
+    </div>
+    <div class="contact-item">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn: <a [href]="contact.linkedin" target="_blank">{{ contact.linkedin }}</a></p>
+    </div>
+  </div>
+</div>

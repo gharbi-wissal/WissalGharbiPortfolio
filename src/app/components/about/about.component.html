@@ -1,0 +1,11 @@
+<!-- Enhanced About Section HTML -->
+<div *ngIf="about" class="about-section">
+  <h2>{{ about.sectionName }}</h2>
+  <div class="about-content">
+    <h3 class="about-name">{{ about.name }}</h3>
+    <h4 class="about-title">{{ about.title }}</h4>
+    <p class="about-location">{{ about.location }}</p>
+    <p class="about-background">{{ about.background }}</p>
+    <p class="about-description">{{ about.description }}</p>
+  </div>
+</div>

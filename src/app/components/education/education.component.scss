@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Education Section */
+.education-section {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Heading */
+.education-section h2 {
+  font-size: 2em;
+  color: #333;
+  border-bottom: 2px solid #2575fc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Grid Container for Education Cards */
+.education-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Education Card */
+.education-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  flex: 1 1 250px; /* Flex-grow, flex-shrink, flex-basis */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Degree and Institution */
+.education-card h3 {
+  font-size: 1.5em;
+  color: #2575fc;
+  margin: 0;
+}
+
+.education-card h4 {
+  font-size: 1.2em;
+  color: #555;
+  margin: 5px 0 15px;
+}
+
+/* Notes */
+.education-notes {
+  font-size: 1em;
+  color: #666;
+  margin-top: 10px;
+  flex-grow: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .education-section h2 {
+    font-size: 1.5em;
+  }
+
+  .education-card h3 {
+    font-size: 1.2em;
+  }
+
+  .education-card h4 {
+    font-size: 1em;
+  }
+}

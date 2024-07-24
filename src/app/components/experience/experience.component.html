@@ -1,0 +1,18 @@
+<!-- Experience Section HTML -->
+<div *ngIf="experience" class="experience-section">
+  <h2>{{ experience.sectionName }}</h2>
+  <div class="experience-grid">
+    <div *ngFor="let exp of experience.entries" class="experience-card">
+      <h3>{{ exp.title }}</h3>
+      <h4>{{ exp.company }} ({{ exp.period }})</h4>
+      <div class="experience-content">
+        <ul class="responsibility-list">
+          <li *ngFor="let responsibility of exp.responsibilities">{{ responsibility }}</li>
+        </ul>
+        <div class="tag-container">
+          <span *ngFor="let env of exp.environment" class="tag">{{ env }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
